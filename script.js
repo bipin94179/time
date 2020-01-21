@@ -44,23 +44,23 @@ var oneSecond = 1000;
 setInterval( showCurrentTime, oneSecond);
 
 //party button code
-var partyButton = document.getElementById("partyTimeButton");
+// var partyButton = document.getElementById("partyTimeButton");
 
-var partyEvent = function()
-{
-  if (partyTime < 0)
-  {
-    partyTime = new Date().getHours();
-    partyTimeButton.innerText = "Party Over!";
-    partyTimeButton.style.backgroundColor = "#0A8DAB";
-  }
-  else
-  {
-    partyTime = -1;
-    partyTimeButton.innerText = "Party Time!";
-    partyTimeButton.style.backgroundColor = "#222";
-  }
-};
+// var partyEvent = function()
+// {
+//   if (partyTime < 0)
+//   {
+//     partyTime = new Date().getHours();
+//     partyTimeButton.innerText = "Party Over!";
+//     partyTimeButton.style.backgroundColor = "#0A8DAB";
+//   }
+//   else
+//   {
+//     partyTime = -1;
+//     partyTimeButton.innerText = "Party Time!";
+//     partyTimeButton.style.backgroundColor = "#222";
+//   }
+// };
 
-partyButton.addEventListener("click", partyEvent);
-partyEvent();
+// partyButton.addEventListener("click", partyEvent);
+// partyEvent();
